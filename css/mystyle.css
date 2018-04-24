@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Microsoft YaHei";
+    font-size: 12px;
+    font-style: normal;
+    line-height: 1.4em;
+    min-width: 600px;
+}
+
+li,
+ul,
+img,
+a,
+div {
+    border: 0;
+    list-style: none;
+}
+
+em {
+    font-weight: normal;
+    font-style: normal;
+}
+
+div {
+    display: block;
+}
+
+a {
+    clear: #333333;
+    text-decoration: none;
+    outline: none;
+}
+
+
+/* top-nav */
+
+.top-nav {
+    background-color: #373d41;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/* top-nav-warp */
+
+.top-nav-warp {
+    overflow: hidden;
+    position: relative;
+}
+
+
+/* top-logo */
+
+.top-logo {
+    width: 80px;
+    height: 50px;
+    float: left;
+    padding-right: 8px;
+    padding-top: 6px;
+    border-right: 1px solid #2a2f32;
+}
+
+.top-logo a {
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 16px;
+    width: 100%;
+    height: 100%;
+    color: #dadada;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+/* top-nav-item */
+
+.top-nav-item {
+    width: auto;
+    height: 50px;
+    float: left;
+    border-right: 1px solid #2a2f32;
+}
+
+.top-nav-item li {
+    height: 50px;
+    float: left;
+    margin-right: 5px;
+}
+
+.top-nav-item li * {
+    color: #dadada;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 15px;
+    vertical-align: top;
+}
+
+.top-nav-item li a {
+    height: 20px;
+    /* line-height: 20px; */
+    padding: 20px 20px;
+}
+
+
+/* .top-nav-item li.active {
+    background: #333;
+} */
+
+
+/* left-nav */
+
+.left-nav {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 100%;
+    letter-spacing: .02em;
+    background-color: #333744;
+}
+
+
+/* monitor */
+
+.monitor {
+    margin: 0 0;
+    list-style: none;
+    width: 100%;
+    background-color: #4a5064;
+}
+
+
+/* monitor-item */
+
+.monitor-item {
+    min-height: 34px;
+    cursor: pointer;
+}
+
+.monitor-item a {
+    padding: 10px 0;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    text-indent: 30px;
+}
+
+.monitor-item a:hover {
+    background-color: rgb(23, 207, 207);
+    /* color: cyan; */
+}
+
+
+/* main */
+
+.main {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding: 20px;
+}
+
+
+/* right-nav */
+
+.right-nav {
+    position: relative;
+    margin-left: 200px;
+    height: 100%;
+    letter-spacing: .02em;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    background-color: rgb(247, 247, 247);
+}
+
+
+/* home-section-left */
+
+.home-section-left {
+    padding-right: 336px;
+    padding: 10px 10px 10px;
+    background-color: #222222;
+}
